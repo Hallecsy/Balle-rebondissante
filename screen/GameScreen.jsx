@@ -1,14 +1,10 @@
 import { StyleSheet, Text, View, Pressable } from 'react-native';
-import GameBoard from '../components/Content/GameBoard'
+import GameBoard from '../components/Content/GameBoard/GameBoard'
 
 export default function GameScreen() {
 
     return (
-        <View style={styles.container}>
-            <View style={styles.body}>
-                <GameBoard />
-            </View>
-        </View>
+        <GameBoard />
     );
 }
 

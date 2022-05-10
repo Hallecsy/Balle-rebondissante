@@ -35,7 +35,7 @@ export default function App() {
           name="Game"
           component={GameScreen}
           options={{
-            headerTitle: "Rebond",
+            headerTitle: "Casse-Briques",
             headerStyle: {
               backgroundColor: '#fff',
             },
